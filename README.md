@@ -25,8 +25,20 @@ https://github.com/awvining91/Stylish-PWA-Text-Editor
 
 - Going to Office Hours with TA and instructor
 
+- https://developers.google.com/codelabs/pwa-training/pwa03--going-offline#0
+
+- https://www.youtube.com/playlist?list=PLNYkxOF6rcIB2xHBZ7opgc2Mv009X87Hh
+
+- https://developer.chrome.com/docs/workbox/service-worker-overview/
+
 - Youtube.com
+
+- https://medium.com/commencis/what-is-service-worker-4f8dc478f0b9
 
 - Stackoverflow.com
 
+- https://survivejs.com/webpack/what-is-webpack/
+
 - Lots of googling 
+
+- https://www.youtube.com/watch?v=g4U5WRzHitM
