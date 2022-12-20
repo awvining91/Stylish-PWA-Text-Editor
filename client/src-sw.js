@@ -8,7 +8,7 @@ const { precacheAndRoute } = require('workbox-precaching/precacheAndRoute');
 precacheAndRoute(self.__WB_MANIFEST);
 
 const pageCache = new CacheFirst({
-  cacheName: 'page-cache',
+  storageCache: 'page-cache',
   plugins: [
     new CacheableResponsePlugin({
       statuses: [0, 200],
@@ -27,4 +27,28 @@ warmStrategyCache({
 registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 
 // TODO: Implement asset caching
-registerRoute();
+//I added in some code here to try to implement asset caching
+
+registerRoute(
+
+
+  ({ request }) => ['style', 'script', 'worker'].includes(request.destination),
+  new StaleWhileRevalidate({
+
+    // Name of the cache storage.
+    storageCache: 'cache-storage',
+
+    plugins: [
+      // This is a plugin that helps cache the responses
+      new CacheableResponsePlugin({
+
+        statuses: [0, 200],
+      }),
+      new ExpirationPlugin({
+
+        maxEntries: 59,
+        maxAgeSeconds: 29 * 13 * 59 * 59, 
+      })
+    ],
+  })
+);
