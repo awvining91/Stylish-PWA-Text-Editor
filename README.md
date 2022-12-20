@@ -5,7 +5,7 @@
 
 Check out the power of partial web app! 🚀
 
-This app allows to use a text editor even if there is no internet connection.
+This app allows you to use a text editor even if there is no internet connection.
 
 ## Description
 
@@ -25,6 +25,12 @@ PWAs seem really fun and interesting and I would like to learn more about them i
 I am trying to catch up on the homework assignments and haven't fully completed this one yet. I hope to come back to this one and finish it up. 
 
 Next we are working on React which I am really excited for. We are really flying through content which is good and bad but I would like to continue learning more about React. 
+
+## Progress Update
+
+I worked on the TODOs on webpack.config.js, src-sw.js, install.js mostly. I have not finished the database.js. I plan on coming back and finishing up the project when I have more time. Project Three is looming ahead and I'm trying to catch up on homework.
+
+Have a great day!!! :)
 
 ## Github Link
 
